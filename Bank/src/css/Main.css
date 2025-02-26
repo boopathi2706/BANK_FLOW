@@ -8,7 +8,7 @@
   position: relative;
   overflow: hidden;
 }
-.sequare{
+ .sequare{
     position: absolute;
     width: 800px;
     height: 800px;
@@ -35,7 +35,7 @@
     bottom: -14%;
     left:4%;
 
-}
+} 
 
 
 
@@ -252,20 +252,97 @@
     gap: 2%;
 }
 .send_area input{
-    width: 70%;
+    width: 60%;
     height: 70%;
     border: 2px solid #151865;
     border-radius: 20px;
     font-size: 1.1rem;
     outline: none;
 }
-.send_area i{
+.fa-paper-plane{
     font-size: 1.7rem;
-    background-color: #151865;
     padding: 13px;
-    color: white;
-    border-radius: 50%;
+    color:#151865;
     text-align: center;
     padding-left: 6px;
     cursor: pointer;
 }
+.fa-microphone{
+    font-size: 1.7rem;
+    padding: 13px;
+    color:#151865;
+    text-align: center;
+    padding-left: 6px;
+    cursor: pointer;
+}
+
+
+
+@media only screen and (max-width: 480px) {
+    .sequare{
+        position: absolute;
+        width: 400px;
+        height: 400px;
+        background-color: #A7DBE8;
+        left: -58%;
+        transform: rotate(45deg);
+    }
+    .small_sequare{
+        position: absolute;
+        width: 250px;
+        height: 250px;
+        background-color: #A7DBE8;
+        transform: rotate(45deg);
+        top: -19%;
+        left:4%;
+    
+    }
+    .small_sequare1{
+        position: absolute;
+        width: 250px;
+        height: 250px;
+        background-color: #A7DBE8;
+        transform: rotate(45deg);
+        bottom: -19%;
+        left:4%;
+    
+    } 
+    
+    .main_container {
+        width: 85%;
+        height: 80%;
+        background-color: white;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        z-index: 1;
+      }
+      .img_main{
+       display: none;
+       
+    }
+    .main_form{
+        width: 90%;
+    }
+    .inputs_main{
+        width: 90%;
+    }
+    .inputs_main input{
+        font-size: 1.1rem;
+        padding: 0 19%;
+    }
+    .inputs_main i{
+        position:absolute;
+        left: 20px;
+        color:#45B4D0;
+        font-size: 22px;
+    }
+
+  }
+
+  
+  @media only screen and (min-width: 481px) and (max-width: 767px) {
+    /* Styles for large mobile devices */
+  }
+  

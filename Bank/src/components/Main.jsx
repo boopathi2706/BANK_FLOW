@@ -52,6 +52,7 @@ const Main = () => {
         <div className="chat">
             <div className="message_content"></div>
             <div className="send_area">
+               <i class="fa-solid fa-microphone"></i>
               <input type="text" name="" id="send_text" className="send_text" />
               <i class="fa-regular fa-paper-plane"></i>
           </div>

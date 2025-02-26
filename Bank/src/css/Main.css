@@ -281,10 +281,10 @@
 @media only screen and (max-width: 480px) {
     .sequare{
         position: absolute;
-        width: 400px;
-        height: 400px;
+        width: 600px;
+        height: 600px;
         background-color: #A7DBE8;
-        left: -58%;
+        left: -78%;
         transform: rotate(45deg);
     }
     .small_sequare{
@@ -333,10 +333,21 @@
         padding: 0 19%;
     }
     .inputs_main i{
-        position:absolute;
         left: 20px;
-        color:#45B4D0;
-        font-size: 22px;
+        
+    }
+    .ai{
+        width: 70px;
+        height: 70px;
+        bottom:65px;
+        right: 25px;
+    }
+    .ai_container{
+        width: 60px;
+        height: 60px;
+    }
+    .chatbot{
+        width: 75%;
     }
 
   }

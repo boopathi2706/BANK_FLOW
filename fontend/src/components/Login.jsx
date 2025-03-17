@@ -116,6 +116,12 @@ const handleCheck=(event)=>{
                     Sign Up
                   </span>
                 </h3>
+                <div className="admin_login">
+                <input type="checkbox" name="" id=""  />
+                <h3>Admin Login</h3>
+                </div>
+               
+
               </div>
             </form>
           </div>
@@ -180,6 +186,10 @@ const handleCheck=(event)=>{
                      Sign In
                   </span>
                 </h3>
+                <div className="admin_login">
+                <input type="checkbox" name="" id=""  />
+                <h3>Admin Signup</h3>
+                </div>
               </div>
             </form>
           </div>
